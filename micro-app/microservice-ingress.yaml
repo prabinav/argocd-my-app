@@ -28,3 +28,13 @@ spec:
               number: 80
         path: /app2
         pathType: Prefix
+   - host: micro.iamprabinav.in
+    http:
+      paths:
+      - backend:
+          service:
+            name: argocd-server
+            port:
+              number: 443
+        path: /argocd
+        pathType: Prefix

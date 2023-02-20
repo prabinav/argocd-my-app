@@ -59,7 +59,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: docker.io/iamprabin/cicd:5
+        image: docker.io/iamprabin/cicd:27
         imagePullPolicy: Always
         ports:
         - containerPort: 80

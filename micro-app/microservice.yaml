@@ -85,7 +85,7 @@ spec:
     spec:
       containers:
       - name: app2
-        image: docker.io/iamprabin/php:2
+        image: docker.io/iamprabin/php:3
         imagePullPolicy: Always
         ports:
         - containerPort: 80
